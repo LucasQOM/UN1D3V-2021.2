@@ -1,0 +1,420 @@
+{
+  "students": [
+    {
+      "name": "Paulo Reis",
+      "ra": "2233344",
+      "course": "BSI",
+      "id": 1,
+      "deleted": false
+    },
+    {
+      "name": "Lucas Queiroz",
+      "ra": "200597",
+      "course": "Engenharia da Computação",
+      "id": 2,
+      "deleted": false
+    },
+    {
+      "name": "Eduardo Berg",
+      "ra": "696969",
+      "course": "Engenharia da Computação",
+      "id": 3,
+      "deleted": false
+    },
+    {
+      "name": "Teste de atualizacao",
+      "ra": "3333444",
+      "course": "Ed. Fisica",
+      "id": 4,
+      "deleted": false
+    },
+    {
+      "name": "teste",
+      "ra": "1234",
+      "course": "Administração",
+      "id": 5,
+      "deleted": false
+    },
+    {
+      "name": "teste 2",
+      "ra": "12345",
+      "course": "Administração",
+      "id": 6,
+      "deleted": false
+    },
+    {
+      "name": "teste 3",
+      "ra": "123456",
+      "course": "Administração",
+      "id": 7,
+      "deleted": false
+    },
+    {
+      "name": "teste 4",
+      "ra": "123457",
+      "course": "Administração",
+      "id": 8,
+      "deleted": false
+    },
+    {
+      "name": "teste 5",
+      "ra": "123458",
+      "course": "Administração",
+      "id": 9,
+      "deleted": false
+    },
+    {
+      "name": "teste 6",
+      "ra": "123459",
+      "course": "Administração",
+      "id": 10,
+      "deleted": false
+    },
+    {
+      "name": "teste 7",
+      "ra": "9888",
+      "course": "Administração",
+      "id": 11,
+      "deleted": false
+    },
+    {
+      "name": "Vinicius Meira",
+      "ra": "242424",
+      "course": "Vacilão",
+      "id": 12,
+      "deleted": false
+    },
+    {
+      "name": "teste 8",
+      "ra": "99999",
+      "course": "Administração",
+      "id": 13,
+      "deleted": false
+    },
+    {
+      "name": "Queiroz Laranja",
+      "ra": "17171713",
+      "course": "EDUCAÇÃO FÍSICA",
+      "deleted": false,
+      "id": 14
+    }
+  ],
+  "courses": [
+    {
+      "name": "ADMINISTRAÇÃO",
+      "id": 1
+    },
+    {
+      "name": "ADMINISTRAÇÃO PÚBLICA",
+      "id": 2
+    },
+    {
+      "name": "ARQUITETURA E URBANISMO",
+      "id": 3
+    },
+    {
+      "name": "ARQUIVOLOGIA",
+      "id": 4
+    },
+    {
+      "name": "ARTES CÊNICAS",
+      "id": 5
+    },
+    {
+      "name": "ARTES PLÁSTICAS",
+      "id": 6
+    },
+    {
+      "name": "BACHARELADO INTERDISCIPLINAR EM ARTES",
+      "id": 7
+    },
+    {
+      "name": "BACHARELADO INTERDISCIPLINAR EM CIÊNCIA E TECNOLOGIA",
+      "id": 8
+    },
+    {
+      "name": "BACHARELADO INTERDISCIPLINAR EM CIÊNCIA, TECNOLOGIA E INOVAÇÃO",
+      "id": 9
+    },
+    {
+      "name": "BACHARELADO INTERDISCIPLINAR EM HUMANIDADES",
+      "id": 10
+    },
+    {
+      "name": "BACHARELADO INTERDISCIPLINAR EM SAÚDE",
+      "id": 11
+    },
+    {
+      "name": "BIBLIOTECONOMIA",
+      "id": 12
+    },
+    {
+      "name": "BIBLIOTECONOMIA E DOCUMENTAÇÃO",
+      "id": 13
+    },
+    {
+      "name": "BIOTECNOLOGIA",
+      "id": 14
+    },
+    {
+      "name": "CANTO",
+      "id": 15
+    },
+    {
+      "name": "CIÊNCIA DA COMPUTAÇÃO",
+      "id": 16
+    },
+    {
+      "name": "CIÊNCIAS BIOLÓGICAS",
+      "id": 17
+    },
+    {
+      "name": "CIÊNCIAS CONTÁBEIS",
+      "id": 18
+    },
+    {
+      "name": "CIÊNCIAS ECONÔMICAS",
+      "id": 19
+    },
+    {
+      "name": "CIÊNCIAS SOCIAIS",
+      "id": 20
+    },
+    {
+      "name": "COMPOSIÇÃO E REGÊNCIA",
+      "id": 21
+    },
+    {
+      "name": "COMPUTAÇÃO",
+      "id": 22
+    },
+    {
+      "name": "COMUNICAÇÃO",
+      "id": 23
+    },
+    {
+      "name": "DANÇA",
+      "id": 24
+    },
+    {
+      "name": "DESIGN - PROGRAMAÇÃO VISUAL",
+      "id": 25
+    },
+    {
+      "name": "DIREITO",
+      "id": 26
+    },
+    {
+      "name": "EDUCAÇÃO FÍSICA",
+      "id": 27
+    },
+    {
+      "name": "ENFERMAGEM - ENFERMEIRO",
+      "id": 28
+    },
+    {
+      "name": "ENGENHARIA CIVIL",
+      "id": 29
+    },
+    {
+      "name": "ENGENHARIA DE AGRIMENSURA E CARTOGRÁFICA",
+      "id": 30
+    },
+    {
+      "name": "ENGENHARIA DE COMPUTAÇÃO",
+      "id": 31
+    },
+    {
+      "name": "ENGENHARIA DE CONTROLE E AUTOMAÇÃO DE PROCESSOS",
+      "id": 32
+    },
+    {
+      "name": "ENGENHARIA DE MINAS - LAVRA E BENEFICIAMENTO",
+      "id": 33
+    },
+    {
+      "name": "ENGENHARIA DE PRODUÇÃO",
+      "id": 34
+    },
+    {
+      "name": "ENGENHARIA ELÉTRICA",
+      "id": 35
+    },
+    {
+      "name": "ENGENHARIA MECÂNICA",
+      "id": 36
+    },
+    {
+      "name": "ENGENHARIA QUÍMICA",
+      "id": 37
+    },
+    {
+      "name": "ENGENHARIA SANITÁRIA E AMBIENTAL",
+      "id": 38
+    },
+    {
+      "name": "ESTATÍSTICA",
+      "id": 39
+    },
+    {
+      "name": "FARMÁCIA",
+      "id": 40
+    },
+    {
+      "name": "FILOSOFIA",
+      "id": 41
+    },
+    {
+      "name": "FÍSICA",
+      "id": 42
+    },
+    {
+      "name": "FISIOTERAPIA",
+      "id": 43
+    },
+    {
+      "name": "FONOAUDIOLOGIA",
+      "id": 44
+    },
+    {
+      "name": "GASTRONOMIA",
+      "id": 45
+    },
+    {
+      "name": "GÊNERO E DIVERSIDADE",
+      "id": 46
+    },
+    {
+      "name": "GEOFÍSICA",
+      "id": 47
+    },
+    {
+      "name": "GEOGRAFIA",
+      "id": 48
+    },
+    {
+      "name": "GEOLOGIA",
+      "id": 49
+    },
+    {
+      "name": "HISTÓRIA",
+      "id": 50
+    },
+    {
+      "name": "INSTRUMENTO - VIOLÃO",
+      "id": 51
+    },
+    {
+      "name": "LETRAS",
+      "id": 52
+    },
+    {
+      "name": "LICENCIATURA EM CIÊNCIAS NATURAIS",
+      "id": 53
+    },
+    {
+      "name": "LICENCIATURA EM DANÇA",
+      "id": 54
+    },
+    {
+      "name": "LICENCIATURA EM DESENHO E PLÁSTICA",
+      "id": 55
+    },
+    {
+      "name": "LICENCIATURA EM MATEMÁTICA",
+      "id": 56
+    },
+    {
+      "name": "LICENCIATURA EM TEATRO",
+      "id": 57
+    },
+    {
+      "name": "MATEMÁTICA",
+      "id": 58
+    },
+    {
+      "name": "MEDICINA",
+      "id": 59
+    },
+    {
+      "name": "MEDICINA VETERINÁRIA",
+      "id": 60
+    },
+    {
+      "name": "MUSEOLOGIA",
+      "id": 61
+    },
+    {
+      "name": "MÚSICA",
+      "id": 62
+    },
+    {
+      "name": "MÚSICA POPULAR",
+      "id": 63
+    },
+    {
+      "name": "NUTRIÇÃO",
+      "id": 64
+    },
+    {
+      "name": "OCEANOGRAFIA",
+      "id": 65
+    },
+    {
+      "name": "ODONTOLOGIA",
+      "id": 66
+    },
+    {
+      "name": "PEDAGOGIA",
+      "id": 67
+    },
+    {
+      "name": "PSICOLOGIA",
+      "id": 68
+    },
+    {
+      "name": "QUÍMICA",
+      "id": 69
+    },
+    {
+      "name": "SAÚDE COLETIVA",
+      "id": 70
+    },
+    {
+      "name": "SECRETARIADO EXECUTIVO",
+      "id": 71
+    },
+    {
+      "name": "SERVIÇO SOCIAL",
+      "id": 72
+    },
+    {
+      "name": "SISTEMAS DE INFORMAÇÃO",
+      "id": 73
+    },
+    {
+      "name": "SUPERIOR DE DECORAÇÃO",
+      "id": 74
+    },
+    {
+      "name": "SUPERIOR DE TECNOLOGIA EM GESTÃO PÚBLICA",
+      "id": 75
+    },
+    {
+      "name": "SUPERIOR DE TECNOLOGIA EM SEGURANÇA PÚBLICA",
+      "id": 76
+    },
+    {
+      "name": "SUPERIOR DE TECNOLOGIA EM TRANSPORTE TERRESTRE",
+      "id": 77
+    },
+    {
+      "name": "TERAPIA OCUPACIONAL",
+      "id": 78
+    },
+    {
+      "name": "ZOOTECNIA",
+      "id": 79
+    }
+  ]
+}
