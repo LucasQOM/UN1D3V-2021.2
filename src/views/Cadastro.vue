@@ -88,8 +88,7 @@
         <v-card elevation="3" class="rounded-lg" style="padding: 34px">
           <h2 class="red--text text--darken-1">Alunos cadastrados por curso</h2>
           <div class="container">
-            <!-- chart -->
-            <!-- <line-chart :data="{'2021-01-01': 11, '2021-01-02': 6}"></line-chart> -->
+            <ChartData/>
           </div>
         </v-card>
       </v-col>
@@ -99,7 +98,7 @@
 
 <script>
 import axios from "axios";
-
+import ChartData from "@/components/Chart.vue";
 
 
 export default {
@@ -112,12 +111,7 @@ export default {
       course: "",
       success: false,
       error: false,
-
-      //   chartData: {
-      //       '2017-05-13': 2,
-      //       '2017-05-14': 5,
-      //       '2017-05-15': 4
-      //   }
+      chart: false,
     };
   },
   mounted() {
@@ -126,7 +120,7 @@ export default {
   methods: {
     loadCourses() {
       this.courses = [];
-      axios.get("http://localhost:3000/courses").then((response) => {
+        axios.get("http://localhost:3000/courses").then((response) => {
         response.data.forEach((element) => {
           this.courses.push({
             id: element.id,
@@ -157,6 +151,9 @@ export default {
         this.error = true;
       }
     },
+  },
+  components: {
+    ChartData,
   },
 };
 </script>

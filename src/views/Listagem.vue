@@ -43,7 +43,8 @@
       <v-col cols="12" sm="3" class="">
         <v-card elevation="3" class="red darken-1 rounded-lg fill-height">
           <div class="pa-5">
-            <h1 class="white--text text-center">Total de alunos Cadastrados</h1>
+            <h1 class="white--text text-center">Total de alunos</h1>
+            <h1 class="white--text text-center">Cadastrados</h1>
             <h1 class="white--text text-center">{{ students.length }}</h1>
           </div>
         </v-card></v-col
@@ -51,7 +52,8 @@
       <v-col cols="12" sm="3" class="">
         <v-card elevation="3" class="grey darken-1 rounded-lg fill-height">
           <div class="pa-5">
-            <h1 class="white--text text-center">Total de alunos Excluidos</h1>
+            <h1 class="white--text text-center">Total de alunos</h1>
+            <h1 class="white--text text-center">Excluidos</h1>
             <h1 class="white--text text-center">
               {{ deletedStudents.length }}
             </h1>
@@ -195,7 +197,7 @@ export default {
       deleted: true,
       aux: "",
       studentId: "",
-      studentIndex: ""
+      studentIndex: "",
     };
   },
   mounted() {
@@ -241,12 +243,12 @@ export default {
     deleteUserByRA() {
       if (this.aux != "") {
         this.students.forEach((student, index) => {
-          if(this.aux == student.ra){
-            this.studentId = student.id
-            this.studentIndex = index
+          if (this.aux == student.ra) {
+            this.studentId = student.id;
+            this.studentIndex = index;
           }
-        })
-        this.deleteUserById(this.studentId, this.studentIndex)
+        });
+        this.deleteUserById(this.studentId, this.studentIndex);
       }
     },
   },

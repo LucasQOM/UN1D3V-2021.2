@@ -33,7 +33,7 @@
       "ra": "1234",
       "course": "Administração",
       "id": 5,
-      "deleted": false
+      "deleted": true
     },
     {
       "name": "teste 2",
@@ -95,8 +95,50 @@
       "name": "Queiroz Laranja",
       "ra": "17171713",
       "course": "EDUCAÇÃO FÍSICA",
+      "id": 14,
+      "deleted": true
+    },
+    {
+      "name": "Berg",
+      "ra": "666666",
+      "course": "DIREITO",
       "deleted": false,
-      "id": 14
+      "id": 15
+    },
+    {
+      "name": "lucas",
+      "ra": "1234",
+      "course": "MEDICINA VETERINÁRIA",
+      "deleted": false,
+      "id": 16
+    },
+    {
+      "name": "jordana",
+      "ra": "18192060",
+      "course": "ADMINISTRAÇÃO",
+      "deleted": false,
+      "id": 17
+    },
+    {
+      "name": "leyz",
+      "ra": "18192069",
+      "course": "CANTO",
+      "deleted": false,
+      "id": 18
+    },
+    {
+      "name": "eduardo",
+      "ra": "1111111",
+      "course": "ADMINISTRAÇÃO PÚBLICA",
+      "deleted": false,
+      "id": 19
+    },
+    {
+      "name": "eeeeee",
+      "ra": "1111111",
+      "course": "ARTES PLÁSTICAS",
+      "deleted": false,
+      "id": 20
     }
   ],
   "courses": [
